@@ -1,0 +1,35 @@
+{ "name": "unbom",
+  "version": "0.0.1",
+  "description": "Strip a BOM (UTF-8 Byte Order Mark) from a string or Buffer.",
+  "keywords": [
+    "BOM",
+    "byte order mark",
+    "stripbom",
+    "strip-bom",
+    "UTF-8"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/unbom-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/unbom-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/unbom-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "unbom.js",
+  "scripts": { "test": "nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {},
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
