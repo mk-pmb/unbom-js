@@ -1,5 +1,5 @@
 { "name": "unbom",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Strip a BOM (UTF-8 Byte Order Mark) from a string or Buffer.",
   "keywords": [
     "BOM",
